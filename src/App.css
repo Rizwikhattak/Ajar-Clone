@@ -1,3 +1,35 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: "MyCustomFont";
+  src: url("/src/assets/Fonts/Mulish/Mulish-VariableFont_wght.ttf")
+      format("woff2"),
+    url("/src/assets/fonts/YourFontFile.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* @font-face {
+  font-family: "MyCustomFontBold";
+  src: url("/src/assets/fonts/YourFontFile-Bold.woff2") format("woff2");
+  font-weight: bold;
+  font-style: normal;
+} */
+* {
+  scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #1a043f;
+}
+
+p {
+  color: #7a797a;
+}
